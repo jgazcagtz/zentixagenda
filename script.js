@@ -62,7 +62,7 @@ async function sendMessage() {
 
     // Enviar mensaje al backend para procesar con ChatGPT
     try {
-        const response = await fetch('/api/backend', {
+        const response = await fetch('https://zentixagenda.vercel.app/api/backend', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ message })
