@@ -2,6 +2,11 @@
 
 const { Configuration, OpenAIApi } = require('openai');
 
+// Verificar que la clave API está definida
+if (!process.env.OPENAI_API_KEY) {
+    throw new Error('La variable de entorno OPENAI_API_KEY no está definida.');
+}
+
 // Configuración de OpenAI con la clave API almacenada en variables de entorno
 const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
@@ -64,7 +69,7 @@ module.exports = async (req, res) => {
                 { role: 'system', content: systemPrompt },
                 { role: 'user', content: message },
             ],
-            temperature: 0.7, // Ajusta la creatividad de las respuestas
+            temperature: 0.7, // Controla la creatividad de las respuestas
             max_tokens: 500, // Limita la longitud de la respuesta
             top_p: 1,
             frequency_penalty: 0,
