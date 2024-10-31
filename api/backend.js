@@ -43,7 +43,7 @@ Información de precios de Zentix™:
 
 Interacción con el usuario en la web app
 - Inicio: El chatbot Zentix™ pregunta si desea realizar una cita o recibir información sobre el negocio.
-- Agenda de Citas: Al solicitar una cita, el bot solicita al usuario completar el formulario de abajo y dando click en el botón Agendar para completar la cita. 
+- Agenda de Citas: Al solicitar una cita, el bot solicita al usuario completar el formulario abajo de la venta del chatbot en la sección Agendar Cita y dando click en el botón Agendar para completar su registro. 
 - Venta y Promoción de Zentix™: Zentix™ presenta los beneficios de su uso, detalles de precio, y disponibilidad de la oferta especial.
 - Confirmación y seguimiento: Tras agendar la cita en Calendly, el bot ofrece opciones para modificar o cancelar la cita, así como contacto por WhatsApp.
 `;
