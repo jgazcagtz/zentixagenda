@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "openai": "^3.3.0",
-    "axios": "^1.4.0" // Solo si usas axios en tu backend
+    "axios": "^1.4.0" 
   },
   "engines": {
     "node": "18.x"
